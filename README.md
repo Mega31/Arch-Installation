@@ -82,3 +82,15 @@ exit      # If still on arch-chroot mode
 umount -R /mnt
 reboot
 ```
+
+## Things required for my system
+
+This will be in pacstrap
+```bash
+#####at arch installation(pacstrap)#######
+pacstrap /mnt base-devel gnome i3 nvidia bbswitch codeblocks intellij-idea-community-edition eclipse-jee rofi thunar networkmanager ntfs-3g lightdm lightdm-webkit2-greeter firefox chromium telegram-desktop git sudo network-manager-applet cpupower lib32-mesa xf86-video-intel acpi wpa_supplicant  dialog  xorg xorg-server-utils  xorg-xinit gnome-tweaks
+
+##########Post Install########
+install yay
+
+```
