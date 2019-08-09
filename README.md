@@ -2,11 +2,11 @@
 Installing arch on win10 pc
 
 ####start#####
-
+'''
 wifi-menu #connect to your wifi
-
+''''
 ping -c 3 www.google.com
-
+'''''
 pacman -Sy 
 
 pacman -S reflector
