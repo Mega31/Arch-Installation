@@ -18,7 +18,7 @@ mount /dev/sdax /mnt #mount it to ext4 partition
 
 
 ```bash
-pacstrap /mnt base base-devel linux-firmware  #and all other things you need
+pacstrap /mnt base linux base-devel linux-firmware  #and all other things you need
 
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
